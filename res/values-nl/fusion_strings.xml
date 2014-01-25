@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Button shorcut actions -->
+    <string name="additional_options_title">Overige opties</string>
+    <string name="reset_message">Alle instellingen herstellen?</string>
+    <string name="style_title">Stijl</string>
+    <string name="shortcut_action_airplane">Vliegtuigmodus</string>
+    <string name="shortcut_action_expanded_desktop">Uitgebreid bureaublad</string>
+    <string name="shortcut_action_power_off">Uitschakelen</string>
+    <string name="shortcut_action_reboot">Opnieuw opstarten</string>
+    <string name="shortcut_action_sound">Geluid</string>
+    <string name="shortcut_action_app">Aangepaste applicatie</string>
+    <string name="shortcut_action_home">Thuis</string>
+    <string name="shortcut_action_back">Terug</string>
+    <string name="shortcut_action_recent">Recente applicaties</string>
+    <string name="shortcut_action_lastapp">Laatste applicatie</string>
+    <string name="shortcut_action_search">Zoeken</string>
+    <string name="shortcut_action_screenshot">Schermafdruk</string>
+    <string name="shortcut_action_menu">Menu</string>
+    <string name="shortcut_action_ime">Open invoermethodes</string>
+    <string name="shortcut_action_kill">Applicatie afsluiten</string>
+    <string name="shortcut_action_power">Scherm uitschakelen</string>
+    <string name="shortcut_action_notifications">Meldingen</string>
+    <string name="shortcut_action_menu_big">Menu</string>
+    <string name="shortcut_action_qs">Snelle instellingen-paneel</string>
+    <string name="shortcut_action_none">Geen</string>
+    <string name="shortcut_action_power_menu">Aan/Uit menu</string>
+    <string name="shortcut_action_torch">Zaklamp</string>
+    <string name="shortcut_action_longpress">Lang indrukken:</string>
+    <string name="shortcut_action_select_action_longpress">Kies activiteit bij lang indrukken:</string>
+    <string name="shortcut_action_select_action">Kies activiteit:</string>
+    <string name="shortcut_action_select_action_newbutton">Kies nieuwe activiteit:</string>
+    <string name="shortcut_action_reset">Herstellen</string>
+    <string name="shortcut_action_add">Toevoegen</string>
+    <string name="shortcut_action_reset_message">Alle instellingen herstellen?</string>
+    <string name="shortcut_action_max">Het maximale aantal is bereikt</string>
+    <string name="shortcut_action_warning">Waarschuwing</string>
+    <string name="shortcut_action_warning_message">Laatste aanpassing kan niet worden gewist</string>
+    <string name="shortcut_action_disable_message">Uitgeschakeld\nVoeg toe om in dit in te schakelen</string>
+    <string name="shortcut_image_not_valid">Ongeldig icoon, de gekozen app wordt waarschijnlijk niet ondersteund</string>
+    <string name="shortcut_duplicate_entry">Je kunt dit niet twee keer toevoegen</string>
+
+    <string name="shortcut_action_help_shortcut">snelkoppeling</string>
+    <string name="shortcut_action_help_button">knop</string>
+    <string name="shortcut_action_help_icon">, terwijl het icoon geselecteerd wordt, zal aanpassingsopties tonen</string>
+    <string name="shortcut_action_help_main">Om een %1$s toe te voegen, selecteer je het Toevoegen icoon. %2$s\n\nOm een %1$s te wissen, veeg je deze weg. Herorden een %1$s door links met het greep-icoon verticaal te schuiven.\n\nOm de standaardinstellingen te herstellen, selecteer je Herstellen.</string>
+    <string name="shortcut_action_help_delete_last_entry">Door %1$s in de lijst te wissen, wordt de functie volledig uitgeschakeld</string>
+    <string name="shortcut_action_help">Help</string>
+
+    <string name="shortcuts_icon_picker_alarm">Alarm</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Batterij</string>
+    <string name="shortcuts_icon_picker_browser">Browser</string>
+    <string name="shortcuts_icon_picker_calendar">Kalender</string>
+    <string name="shortcuts_icon_picker_camera">Camera</string>
+    <string name="shortcuts_icon_picker_cloud">Cloud</string>
+    <string name="shortcuts_icon_picker_contact">Contact</string>
+    <string name="shortcuts_icon_picker_directdial">Direct bellen</string>
+    <string name="shortcuts_icon_picker_directmessage">Direct bericht</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">E-mail</string>
+    <string name="shortcuts_icon_picker_email2">E-mail alt.</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Favoriet</string>
+    <string name="shortcuts_icon_picker_file_browser">Bestandsbeheer</string>
+    <string name="shortcuts_icon_picker_file_browser2">Bestandsbeheer alt.</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Galerij</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
+    <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google+</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
+    <string name="shortcuts_icon_picker_help">Help</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Accounts</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Notities</string>
+    <string name="shortcuts_icon_picker_luggage">Reizen</string>
+    <string name="shortcuts_icon_picker_maps">Maps</string>
+    <string name="shortcuts_icon_picker_market">Store</string>
+    <string name="shortcuts_icon_picker_movie">Films</string>
+    <string name="shortcuts_icon_picker_music">Muziek</string>
+    <string name="shortcuts_icon_picker_nav">Navigatie</string>
+    <string name="shortcuts_icon_picker_phone">Telefoon</string>
+    <string name="shortcuts_icon_picker_package">Pakket</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
+    <string name="shortcuts_icon_picker_play">Play</string>
+    <string name="shortcuts_icon_picker_pocket">Pocket</string>
+    <string name="shortcuts_icon_picker_quicksettings">Snelle instellingen</string>
+    <string name="shortcuts_icon_picker_rss">RSS Feed</string>
+    <string name="shortcuts_icon_picker_sdcard">SD-kaart</string>
+    <string name="shortcuts_icon_picker_search">Zoeken</string>
+    <string name="shortcuts_icon_picker_sms">SMS</string>
+    <string name="shortcuts_icon_picker_tasks">Taken</string>
+    <string name="shortcuts_icon_picker_terminal">Terminal</string>
+    <string name="shortcuts_icon_picker_transit">Transit</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
+    <string name="shortcuts_icon_picker_twitter">Twitter</string>
+    <string name="shortcuts_icon_picker_unlock">Ontgrendelen</string>
+
+    <string name="icon_picker_type">Selecteer icoon-type:</string>
+    <string name="icon_default">Standaard</string>
+    <string name="icon_presets">Systeemiconen</string>
+    <string name="icon_custom">Galerij</string>
+	<string name="icon_pack">Iconenpakket</string>
+	<string name="icon_picker_choose_icon_title">Kies icoon</string>
+	<string name="icon_color_mode_all_icons">Alle iconen</string>
+    <string name="icon_color_mode_system_icons">Systeemiconen</string>
+    <string name="icon_color_mode_system_custom_icons">Systeem en aangepaste iconen</string>
+    <string name="group_applications">Applicaties</string>
+    <string name="select_custom_app_title">Kies aangepaste applicaties</string>
+    <string name="shortcuts_text_color_title">Tekstkleur</string>
+    <string name="shortcuts_color_title">Icoonkleur</string>
+    <string name="shortcuts_color_mode_title">Icoon kleurmodus</string>
+    <string name="shortcuts_color_mode_summary">Verander de kleurmodus van de snelkoppelingsiconen</string>
+
+    <string name="notification_hide_carrier_title">Verberg naam provider</string>
+    <string name="notification_hide_carrier_summary">Verberg provider en Wi-Fi naam in meldingenvenster</string>
+    <string name="notification_shortcuts_settings_title">Snelkoppelingen</string>
+    <string name="notification_shortcuts_settings_summary">Toon snelkoppelingen in meldingenvenster</string>
+
+
+    <!-- Halo -->
+    <string name="halo_settings_title">Halo</string>
+    <string name="halo_behavior_title">Halo-gedrag</string>
+    <string name="halo_hide_title">Verberg Halo na activiteit</string>
+    <string name="halo_hide_summary">Halo zal verschijnen bij inkomende meldingen en daarna weer verdwijnen</string>
+    <string name="halo_reversed_title">Keer Halo om</string>
+    <string name="halo_reversed_summary">Schakel in dat Halo verplaatst en verwijdert kan worden door te slepen over het scherm</string>
+    <string name="halo_state_title">Halo beleid</string>
+    <string name="halo_state_summary">Schakel in dat meldingen op een zwarte of witte lijst kunnen worden gezet</string>
+    <string name="halo_state_black">Zwarte lijst</string>
+    <string name="halo_state_white">Witte lijst</string>
+    <string name="halo_pause_title">Pauzeer actieve applicatie</string>
+    <string name="halo_pause_summary">Indien een applicatie geopend wordt met Halo zal de huidige applicatie gepauzeerd worden</string>
+    <string name="halo_ninja_title">Ninja modus</string>
+    <string name="halo_ninja_summary">Halo zal volledig worden verborgen indien er niets weergegeven kan worden</string>
+    <string name="halo_notification_msgbox_title">Toon berichten pop-up</string>
+    <string name="halo_notification_msgbox_summary">Toon berichten pop-up voor inkomende berichten</string>
+    <string name="halo_unlock_ping_title">Ping bij ontgrendelen</string>
+    <string name="halo_unlock_ping_summary">Halo zal pingen bij het ontgrendelen als er nieuwe meldingen zijn</string>
+
+    <string name="halo_size_title">Halo grootte</string>
+    <string name="halo_size_summary">Bepaal hoe groot Halo moet zijn</string>
+    <string name="halo_size_miniscule">Minuscuul</string>
+    <string name="halo_size_small">Klein</string>
+    <string name="halo_size_default">Normaal (standaard)</string>
+    <string name="halo_size_large">Groot</string>
+    <string name="halo_size_gigantic">Gigantisch</string>
+    <string name="halo_size_monster">Monster</string>
+
+    <string name="halo_notification_count_title">Meldingenaantal</string>
+    <string name="halo_notification_count_summary">Halo toont het aantal meldingen</string>
+    <string name="halo_notification_count_none">Niet</string>
+    <string name="halo_notification_count_total">Totaal</string>
+    <string name="halo_notification_count_individual">Per applicatie</string>
+    <string name="halo_notification_count_both">Beide</string>
+
+    <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+    <string name="app_halo_label_black">Zet op zwarte lijst</string>
+    <string name="app_halo_label_white">Zet op witte lijst</string>
+
+</resources>

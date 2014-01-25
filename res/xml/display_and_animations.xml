@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/general_settings_title">
+
+   <PreferenceCategory
+        android:key="category_animation_options"
+        android:title="@string/display_category_animation_options_title" >
+
+	<!-- Active display -->	
+	<PreferenceScreen	
+	    android:key="active_display"	
+	    android:fragment="com.android.settings.fusion.ActiveDisplaySettings"	
+	    android:title="@string/ad_settings_title"	
+	    android:summary="@string/ad_settings_summary" /> 
+
+	<!-- CRT animation -->
+        <ListPreference
+            android:key="system_power_crt_mode"
+            android:dialogTitle="@string/system_power_crt_mode_dialog_title"
+            android:title="@string/system_power_crt_mode_title"
+            android:entries="@array/entries_system_power_crt_mode"
+            android:entryValues="@array/values_system_power_crt_mode" />
+
+	<!-- AOKP custom system animations -->
+	<PreferenceScreen
+            android:id="@+id/animations"  
+            android:title="@string/title_animation_controls"  
+            android:summary="@string/header_summary_animation"  
+            android:fragment="com.android.settings.fusion.fragments.AnimationControls" />
+
+        <ListPreference
+            android:key="listview_animation"
+            android:dialogTitle="@string/listview_animation_title"
+            android:title="@string/listview_animation_title"
+            android:entries="@array/listview_animation_entries"
+            android:entryValues="@array/listview_animation_values"
+            android:defaultValue="0" />
+
+         <ListPreference
+            android:key="listview_interpolator"
+            android:dialogTitle="@string/listview_interpolator_title"
+            android:title="@string/listview_interpolator_title"
+            android:entries="@array/listview_interpolator_entries"
+            android:entryValues="@array/listview_interpolator_values"
+            android:defaultValue="0"
+            android:dependency="listview_animation" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

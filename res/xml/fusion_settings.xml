@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- General settings
+    <PreferenceScreen
+        android:key="general_settings"
+        android:icon="@drawable/ic_settings_general_ui"
+        android:fragment="com.android.settings.fusion.GeneralSettings"
+        android:title="@string/general_settings_title" /> -->
+
+    <!-- PowerWidget settings -->
+    <PreferenceScreen
+        android:key="notification_drawer"
+        android:fragment="com.android.settings.cyanogenmod.PowerWidget"
+        android:title="@string/power_widget_title" />
+
+    <!-- Halo -->
+    <PreferenceScreen
+        android:id="@+id/halo_settings"
+        android:fragment="com.android.settings.fusion.Halo"
+        android:title="@string/halo_settings_title" />
+
+    <!-- Notification drawer and quick settings 
+    <PreferenceScreen
+        android:key="notification_drawer_qs"
+        android:icon="@drawable/ic_settings_notifications"
+        android:fragment="com.android.settings.fusion.NotificationDrawerQsSettings"
+        android:title="@string/notification_drawer_qs_title" /> -->
+
+    <!-- Lockscreen 
+    <PreferenceScreen
+        android:id="@+id/lock_screen_settings"
+        android:fragment="com.android.settings.fusion.LockscreenInterface"
+        android:title="@string/lock_screen_title"
+        android:icon="@drawable/ic_settings_lockscreen" /> -->
+
+    <!-- Navigation bar 
+    <PreferenceScreen
+        android:key="navbar_settings"
+        android:fragment="com.android.settings.fusion.NavbarSettings"
+        android:title="@string/navigation_bar_settings_title"
+        android:icon="@drawable/ic_settings_navigation" /> -->
+
+    <!-- Buttons
+    <PreferenceScreen
+        android:id="@+id/button_settings"
+        android:icon="@drawable/ic_settings_buttons"
+        android:fragment="com.android.settings.cyanogenmod.ButtonSettings"
+        android:title="@string/button_settings" /> -->
+
+    <!-- Display and animations 
+    <PreferenceScreen
+        android:key="display_and animations"
+        android:icon="@drawable/ic_settings_misc"
+        android:fragment="com.android.settings.fusion.DisplayAndAnimations"
+        android:title="@string/display_and_animations_title" /> -->
+
+    <!-- Power menu 
+    <PreferenceScreen
+        android:key="navbar_targets_settings"
+        android:icon="@drawable/ic_settings_power_menu"
+        android:fragment="com.android.settings.fusion.dslv.ButtonsListViewSettings"
+        android:title="@string/power_menu_title">
+            <extra android:name="buttonMode" android:value="6" />
+            <extra android:name="maxAllowedButtons" android:value="8" />
+            <extra android:name="disableLongpress" android:value="true" />
+            <extra android:name="disableDeleteLastEntry" android:value="true" />
+            <extra android:name="actionValues" android:value="shortcut_action_power_menu_values" />
+            <extra android:name="actionEntries" android:value="shortcut_action_power_menu_entries" />
+            <extra android:name="fragment" android:value="com.android.settings.fusion.fragments.PowerMenuFragment" />
+    </PreferenceScreen> -->
+
+    <!-- Quiet hours
+    <PreferenceScreen
+        android:key="quiet_hours"
+        android:icon="@drawable/ic_quiethours"
+        android:fragment="com.android.settings.fusion.QuietHours"
+        android:title="@string/quiet_hours_title" /> -->
+
+    <!-- Statusbar
+    <PreferenceScreen
+        android:key="status_bar"
+        android:icon="@drawable/ic_settings_misc"
+        android:fragment="com.android.settings.fusion.StatusBar"
+        android:title="@string/status_bar_title" /> -->
+
+    <!-- App sidebar 
+     <PreferenceScreen
+        android:key="app_sidebar"
+        android:icon="@drawable/ic_settings_app_bar"
+        android:fragment="com.android.settings.fusion.AppSidebar"
+        android:title="@string/app_sidebar_title" /> -->
+
+    <!-- Gesture Anywhere 
+    <PreferenceScreen
+        android:key="gesture_anywhere"
+        android:icon="@drawable/ic_settings_gesture_anywhere"
+        android:fragment="com.android.settings.fusion.labs.gestureanywhere.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title" /> -->
+
+    <!-- Identicons 
+    <PreferenceScreen
+        android:key="identicons"
+        android:icon="@drawable/ic_settings_identicons"
+        android:fragment="com.android.settings.fusion.labs.identicons.IdenticonsSettings"
+        android:title="@string/identicons_title" /> -->
+
+    <!-- Screen state service 
+    <PreferenceScreen
+        android:key="screen_state_service"
+        android:icon="@drawable/ic_settings_screen_state"
+        android:fragment="com.android.settings.fusion.fragments.ScreenStateToggles"
+        android:title="@string/screen_state_toggles_title"
+        android:summary="@string/screen_state_toggles_summary" /> -->
+
+    <!-- Wakelock blocker 
+    <PreferenceScreen
+        android:key="wakelock_blocker"
+        android:icon="@drawable/ic_settings_wakelock_blocker"
+        android:fragment="com.android.settings.fusion.fragments.WakeLockBlocker"
+        android:title="@string/wakelock_blocker"
+        android:summary="@string/wakelock_blocker_header_summary" /> -->
+
+    <!-- Boeffla Config 
+    <PreferenceScreen
+        android:id="@+id/boeffla_config"
+        android:icon="@drawable/ic_settings_boeffla"
+        android:title="@string/ic_settings_boeffla_config">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="de.dragon.boeffla_config_v2"
+            android:targetClass="de.andip71.boeffla_config_v2.MainActivity" />
+    </PreferenceScreen> -->
+
+    <!-- Build.prop modder 
+    <PreferenceScreen
+        android:key="buildprop_modder"
+        android:icon="@drawable/ic_settings_prop_modder"
+        android:title="@string/propmodder_title"
+        android:fragment="com.android.settings.cyanogenmod.PropModder"/> -->
+
+    <!-- Init.d configurator 
+     <PreferenceScreen
+        android:id="@+id/initD"
+        android:icon="@drawable/ic_settings_init"
+        android:fragment="com.android.settings.InitD"
+        android:title="@string/init_d_title"
+        android:summary="@string/header_summary_init_d" /> -->
+
+    <!-- AOKP Weather 
+    <PreferenceScreen
+        android:key="weather"
+        android:icon="@drawable/ic_rom_control_weather"
+        android:fragment="com.android.settings.fusion.Weather"
+        android:title="@string/title_weather"/> -->
+
+</PreferenceScreen>

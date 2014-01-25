@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/general_settings_title">
+
+    <PreferenceCategory
+        android:title="@string/general_settings_style_title">
+
+        <!-- LCD Density -->
+        <PreferenceScreen
+            android:key="lcd_density_setup"
+            android:fragment="com.android.settings.fusion.DensityChanger"
+            android:title="@string/lcd_density_title"
+            android:summary="@string/lcd_density_summary" />
+
+        <!-- MediaScanner behavior on boot -->
+        <ListPreference
+            android:key="media_scanner_on_boot"
+            android:title="@string/media_scanner_on_boot_title"
+            android:persistent="false"
+            android:entries="@array/media_scanner_on_boot_entries"
+            android:entryValues="@array/media_scanner_on_boot_values" />
+
+        <!-- Alternate App picker -->
+        <CheckBoxPreference
+            android:key="use_alt_resolver"
+            android:title="@string/alt_resolver"
+            android:summary="@string/alt_resolver_summary"
+            android:defaultValue="false" />
+
+        <!-- CPU info overlay -->
+	<CheckBoxPreference
+            android:key="show_cpu_info"
+            android:title="@string/show_cpu_info"
+            android:summary="@string/show_cpu_info_summary"/>
+
+        <!-- Restart SystemUI -->
+        <Preference android:key="restart_systemui"
+            android:title="@string/restart_systemui" />
+
+    </PreferenceCategory>
+
+    <!-- Recent panel -->
+    <PreferenceCategory
+            android:key="category_recent_panel"
+            android:title="@string/recent_panel_title"/>
+
+    <!-- Recents RAM bar -->
+    <PreferenceScreen
+            android:key="recents_ram_bar"
+            android:fragment="com.android.settings.fusion.RamBar"
+            android:title="@string/ram_bar" />
+
+        <!-- Recents clear all -->
+    <CheckBoxPreference
+            android:key="recent_menu_clear_all"
+            android:title="@string/show_recent_clear_all_button_title"
+            android:summary="@string/show_recent_clear_all_button_summary"
+            android:defaultValue="true" />
+
+    <ListPreference
+            android:key="recent_menu_clear_all_location"
+            android:title="@string/recent_clear_all_button_location_title"
+            android:summary="@string/recent_clear_all_button_location_summary"
+            android:entries="@array/recent_clear_all_button_location_entries"
+            android:entryValues="@array/recent_clear_all_button_location_values"
+            android:defaultValue="2"
+            android:dependency="recent_menu_clear_all" />
+
+    <PreferenceCategory
+        android:title="@string/lights_and_warnings_style_title">
+
+        <!-- Low battery pop-up warning -->
+        <ListPreference
+            android:key="pref_low_battery_warning_policy"
+            android:title="@string/pref_low_battery_warning_policy_title"
+            android:dialogTitle="@string/pref_low_battery_warning_policy_dialog_title"
+            android:entries="@array/pref_low_battery_warning_policy_entries"
+            android:entryValues="@array/pref_low_battery_warning_policy_values"
+            android:defaultValue="0" />
+
+        <!-- Less Notification Sounds -->
+        <ListPreference
+             android:key="less_notification_sounds"
+             android:title="@string/less_notification_sounds_title"
+             android:summary="@string/less_notification_sounds_summary"
+             android:entries="@array/less_notification_sounds_entries"
+             android:entryValues="@array/less_notification_sounds_values" />
+
+	<!-- Notifications lights with screen on -->
+        <CheckBoxPreference
+            android:key="screen_on_notification_led"
+            android:title="@string/screen_on_notification_led_title"
+            android:summary="@string/screen_on_notification_led_summary"
+            android:defaultValue="true" />    
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
